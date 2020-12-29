@@ -59,18 +59,6 @@ def main():
     probability_model = tf.keras.Sequential([model,tf.keras.layers.Softmax()])
     #5 epochs
     probability_model(x_test[:1])
-'''
-    recall = tf.keras.metrics.Recall(thresholds=None, top_k=None, class_id=None, name=None, dtype=None)
-    recall.update_state(np.round(y_test.transpose()).astype(int), predictions[0])
-    print('Recall',recall.result().numpy())
-    precision = tf.keras.metrics.Precision(thresholds=None, top_k=None, class_id=None, name=None, dtype=None)
-    precision.update_state(y_test, predictions[0])
-    print('Precision',precision.result().numpy())
-    print(len(y_test))
-    print(predictions[0])
-    #confusion = tf.math.confusion_matrix(labels=y_test, predictions=predictions[0])
-    #print(confusion)
-  '''
 
 if __name__ == '__main__':
     main()
