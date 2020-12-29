@@ -2,7 +2,7 @@
 Queen's University, Fall 2020
 Course: COGS 400 - Neural and Genetic Computing
 Assignment 2 - Backpropogation Part B - Implementing Keras
-Student Number: 20062694
+Student Number: ********
 
 Sources:
 https://www.tensorflow.org/tutorials/quickstart/beginner
